@@ -17,5 +17,29 @@ ul{
 }
 body{
     margin: 0;
+    color: #F2F2F2;
     font-family: sans-serif;
+}
+.circle{
+    display: inline-block;
+    position: relative;
+    left: 45px;
+    top: 35px;
+    width: 40px;
+    height: 40px;
+    border-radius: 100px;
+    background-color: rgba(0, 0, 0, 0.202);
+}
+.texto{
+    color: black;
+}
+.box-1{
+  
+    background-color: #E28625;
+}
+.box-2{
+    background-color: #006971;
+}
+.box-3{
+    background-color: #004140;
 }
