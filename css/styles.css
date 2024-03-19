@@ -3,7 +3,10 @@
 }
 img{
     display: block;
+    position: absolute;
     max-width: 100%;
+    margin-top: 10px;
+    margin-left: 17px;
 }
 a{
     text-decoration: none;
@@ -19,27 +22,109 @@ body{
     margin: 0;
     color: #F2F2F2;
     font-family: sans-serif;
+    margin: 15px;
+    font-size: 0;
 }
 .circle{
     display: inline-block;
     position: relative;
-    left: 45px;
-    top: 35px;
+    margin-bottom: 16px;
+    top: 5px;
     width: 40px;
     height: 40px;
     border-radius: 100px;
     background-color: rgba(0, 0, 0, 0.202);
 }
+.title{
+    font-family: "Big Shoulders Display", sans-serif;
+    font-size: 40px;
+}  
 .texto{
-    color: black;
+    color: white;
+    font-family: "Lexend Deca", sans-serif;
 }
 .box-1{
-  
+    position: relative;
+    padding: 50px;
+    height: 442px;
+    width: 375px;
     background-color: #E28625;
+    border-radius: 8px 8px 0 0;
+    font-size: 15px;
 }
 .box-2{
+    position: relative;
+    padding: 50px;
+    height: 442px;
+    width: 375px;
+    margin: 0;
     background-color: #006971;
+    font-size: 15px;
 }
 .box-3{
+    position: relative;
+    padding: 50px;
+    height: 442px;
+    width: 375px;
+    margin: 0;  
     background-color: #004140;
+    border-radius: 0 0 8px 8px;
+    font-size: 15px;
+}
+.button-1{
+    color: #E28625;
+    background-color: #F2F2F2;
+    position: absolute;
+    padding: 16px;
+    margin-bottom: 48px;
+    border-radius: 25px;
+}
+.button-2{
+    color: #006971;
+    background-color: #F2F2F2;
+    position: absolute;
+    padding: 16px;
+    margin-bottom: 48px;
+    border-radius: 25px;
+}
+.button-3{
+    color: #004140;
+    background-color: #F2F2F2;
+    position: absolute;
+    padding: 16px;
+    margin-bottom: 48px;
+    border-radius: 25px;
+}
+@media screen and (width >= 768px){
+    .box-1{
+        display: inline-block;
+        height: 500px;
+        border-radius: 8px 0 0 8px ;
+    }
+    .box-2{
+        display: inline-block;
+        height: 500px;
+    }
+    .box-3{
+        display: inline-block;
+        height: 500px;
+        border-radius: 0 8px 8px 0 ;
+    }
+}
+@media (hover: hover){
+    .button-1:hover{
+    color: white;
+    background-color: #E28625;
+    border: 2px solid white;
+    }
+    .button-2:hover{
+        color: white;
+        background-color: #006971;
+        border: 2px solid white;
+        }
+        .button-3:hover{
+            color: white;
+            background-color: #004140;
+            border: 2px solid white;
+            }
 }
